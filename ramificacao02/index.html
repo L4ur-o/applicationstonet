@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauro Michel de Oliveira Souza Lima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 tabindex="0">Lauro Michel de Oliveira Souza Lima</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre" accesskey="1">Sobre</a></li>
+                <li><a href="#formulario" accesskey="2">Contato</a></li>
+                <li><a href="#midia" accesskey="3">Mídia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre">
+            <p class="hover-text">
+                <span class="texto-original">
+                  Sim, eu tenho TPM.
+                </span>
+                <span class="texto-hover">
+                    <b>T</b> esão ➢ <b>P</b> ós ➢ <b>M</b> ais um gol do Yuri Alberto.
+                </span>
+            </p>
+        </section>
+
+        <section id="formulario">
+            <h2 tabindex="0">Contato</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Envie uma mensagem</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required minlength="3" placeholder="Digite seu nome">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required minlength="10"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="midia">
+            <h2 tabindex="0">Conteúdo Multimídia</h2>
+
+            <figure>
+                <img src="assets/Corinthians.png" alt="Logo do Corinthians"/>
+                <figcaption>CORINGÃO LOGO</figcaption>
+            </figure>
+
+            <video controls>
+                <source src="assets/UNDAIA!.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+
+            <audio controls>
+                <source src="assets/SubterraBakugan.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+    </main>
+
+    <footer>
+        <p tabindex="0">SALVE</p>
+    </footer>
+
+</body>
+
+</html>
